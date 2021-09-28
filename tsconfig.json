@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "outDir": "./build/",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [
+      "es5",
+      "es6",
+      "es7",
+      "es2017",
+      "dom"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "rootDirs": [
+      "src"
+    ],
+    "baseUrl": "src",
+    "downlevelIteration": true,
+  },
+  "include": [
+    "src/**/*",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "**/*.test.tsx",
+    "**/*.test.ts"
+  ]
+}
